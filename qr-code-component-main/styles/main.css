@@ -1,0 +1,45 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+
+
+body{
+    min-height: 100vh;;
+    background-color: var(--bg-container);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.card{
+    max-width: 280px;
+    min-width: 150px;
+
+    text-align: center;
+
+    padding: 17px;
+
+    border-radius: 20px;
+
+    background-color: var(--bg-card)
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 20px;
+}
+
+.card .text-first{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.card .text-second{
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
